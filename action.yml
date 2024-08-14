@@ -39,4 +39,6 @@ branding:
   color: 'blue'
 runs:
   using: 'node20'
+  #pre: 'lib/cleanup/index.js'
   main: 'lib/main/index.js'
+  #post: 'lib/cleanup/index.js'
